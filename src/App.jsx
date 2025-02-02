@@ -1,4 +1,5 @@
 import './App.css'
+import Name from './components/Name'
 import Navbar from './components/Navbar'
 
 /* 
@@ -16,9 +17,11 @@ npm run dev
 
 function App() {
   let myName = "Hasan"
+  console.log("Hello")
   return (
     <>
       <Navbar></Navbar>
+      <Name></Name>
       <Navbar></Navbar>
       <h1>Hello my name is {myName}</h1>
       <p>And I am taking SE Bootcamp</p>
