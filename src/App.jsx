@@ -3,6 +3,14 @@ import reactLogo from './assets/react.svg'
 import viteLogo from '/vite.svg'
 import './App.css'
 
+/* 
+Steps to create react application:
+
+1. npm create vite name-of-application
+2. cd name-of-application
+3. npm i
+*/
+
 function App() {
   const [count, setCount] = useState(0)
 
