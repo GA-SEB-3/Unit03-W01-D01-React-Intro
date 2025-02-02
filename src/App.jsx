@@ -15,11 +15,12 @@ npm run dev
 */
 
 function App() {
-
+  let myName = "Hasan"
   return (
     <>
       <Navbar></Navbar>
-      <h1>Hello my name is Omar</h1>
+      <Navbar></Navbar>
+      <h1>Hello my name is {myName}</h1>
       <p>And I am taking SE Bootcamp</p>
     </>
   )
